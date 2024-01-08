@@ -9,7 +9,7 @@ FACS (Fluorescence-AcFvated Cell Sorter), Rattus norvegicus, cells from a select
 This sections should be a description of preprocessin and analysis ready to be included in the publication.
 Through this methodology, we aim to precisely understand how psilocybin impacts small RNA profiles in the context of depression.
 
-# *nf-core/smrnaseq*
+### *nf-core/smrnaseq*
 This pipeline is built on Nextflow, enabling flexible and reproducible analysis across various computational environments. The nf-core/smrnaseq pipeline is specifically tailored for small RNA sequencing data, making it ideal for our study's requirements.
 
 ## Preprocessing
