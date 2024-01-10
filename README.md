@@ -2,11 +2,9 @@
 
 #### Project logline (technique, organism, tissue type)
 Molecular mechanisms of the antidepressant effect of psilocybin using an animal model of treatment-resistant depression. 
-FACS (Fluorescence-AcFvated Cell Sorter), 
-
-Rattus norvegicus: Wistar Kyoto (WKY)/Wistar Han (WIS), 
-
-Cells from a selected part of the brain (prefrontal cortex).
+1. FACS (Fluorescence-AcFvated Cell Sorter),
+2. Rattus norvegicus: Wistar Kyoto (WKY)/Wistar Han (WIS),
+3. Cells from a selected part of the brain (prefrontal cortex).
 
 
 ## Methods
