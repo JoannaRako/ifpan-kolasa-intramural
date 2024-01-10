@@ -9,6 +9,7 @@ Cells from a selected part of the brain (prefrontal cortex).
 
 ## Methods
 Through this methodology, we aim to precisely understand how psilocybin impacts small RNA profiles in the context of depression.
+---
 
 ### *biochemical part*
 In the biochemical part of the project, the expression of small RNAs and protein expression at the proteome level in the population of prefrontal cortex neurons were examined.
@@ -16,7 +17,7 @@ The neurons were isolated using a cell sorter (FACS, Fluorescence-Activated Cell
 
 ### *nf-core/smrnaseq*
 [Pipeline link](https://nf-co.re/smrnaseq/2.2.4)
----
+
 This pipeline is built on Nextflow, enabling flexible and reproducible analysis across various computational environments. The nf-core/smrnaseq pipeline is specifically tailored for small RNA sequencing data, making it ideal for our study's requirements.
 Core Nextflow options used in this pipeline:
 - Revision: 2.2.4
