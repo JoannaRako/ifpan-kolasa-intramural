@@ -18,7 +18,7 @@ The neurons were isolated using a cell sorter (FACS, Fluorescence-Activated Cell
 This pipeline is built on Nextflow, enabling flexible and reproducible analysis across various computational environments. The nf-core/smrnaseq pipeline is specifically tailored for small RNA sequencing data, making it ideal for our study's requirements.
 
 ## Preprocessing
-Details of file preprocessing
+The file samplesheet.csv, prepared in a template format, contains the names and locations of files with raw sequences in fq.gz format, necessary for the functioning of the data processing pipeline.
 
 ## Analysis
 Details of analysis
