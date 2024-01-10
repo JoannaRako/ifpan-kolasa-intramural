@@ -15,7 +15,7 @@ In the biochemical part of the project, the expression of small RNAs and protein
 The neurons were isolated using a cell sorter (FACS, Fluorescence-Activated Cell Sorter), which represented a significant methodological challenge and had not been used in the Institute before.
 
 ### *nf-core/smrnaseq*
-	Link: [nf-core/smrnaseq](https://nf-co.re/smrnaseq/2.2.4)
+[nf-core/smrnaseq](https://nf-co.re/smrnaseq/2.2.4)
 This pipeline is built on Nextflow, enabling flexible and reproducible analysis across various computational environments. The nf-core/smrnaseq pipeline is specifically tailored for small RNA sequencing data, making it ideal for our study's requirements.
 Core Nextflow options used in this pipeline:
 - Revision: 2.2.4
