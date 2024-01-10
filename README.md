@@ -19,11 +19,6 @@ The neurons were isolated using a cell sorter (FACS, Fluorescence-Activated Cell
 https://nf-co.re/smrnaseq/2.2.4
 
 This pipeline is built on Nextflow, enabling flexible and reproducible analysis across various computational environments. The nf-core/smrnaseq pipeline is specifically tailored for small RNA sequencing data, making it ideal for our study's requirements.
-Core Nextflow options used in this pipeline:
-- Revision: 2.2.4
-- Profile: Docker
-- Protocol: Ilumina
-- Genome: [rn6 (UCSC)](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
 ## Preprocessing
 Samplesheet.csv -> prepared in a template format, contains the names and locations of files with raw sequences in fq.gz format, necessary for the functioning of the data processing pipeline.
@@ -32,9 +27,13 @@ nf-params.json -> file, contains the location of input and output path
 
 
 ## Analysis
-Details of analysis
-
 *notes: all files included in the repo need to be referenced, either in README or other .md files. The analysis has to be fully reproducible, in principle the repo should contain code + description of how to run it while data and results kept outside*
+
+Core Nextflow options used in this pipeline:
+- Revision: 2.2.4
+- Profile: Docker
+- Protocol: Ilumina
+- Genome: [rn6 (UCSC)](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
 ## About this template
 Directories:
