@@ -15,13 +15,14 @@ In the biochemical part of the project, the expression of small RNAs and protein
 The neurons were isolated using a cell sorter (FACS, Fluorescence-Activated Cell Sorter), which represented a significant methodological challenge and had not been used in the Institute before.
 
 ### *nf-core/smrnaseq*
-[nf-core/smrnaseq](https://nf-co.re/smrnaseq/2.2.4)
+[Pipeline link](https://nf-co.re/smrnaseq/2.2.4)
+---
 This pipeline is built on Nextflow, enabling flexible and reproducible analysis across various computational environments. The nf-core/smrnaseq pipeline is specifically tailored for small RNA sequencing data, making it ideal for our study's requirements.
 Core Nextflow options used in this pipeline:
 - Revision: 2.2.4
 - Profile: Docker
 - Protocol: Ilumina
-- Genome: rn6 (UCSC) // https://support.illumina.com/sequencing/sequencing_software/igenome.html
+- Genome: [rn6 (UCSC)](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
 
 ## Preprocessing
 Samplesheet.csv -> prepared in a template format, contains the names and locations of files with raw sequences in fq.gz format, necessary for the functioning of the data processing pipeline.
